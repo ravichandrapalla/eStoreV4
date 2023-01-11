@@ -12,7 +12,7 @@ function App() {
       <Header />
       <section style={{ marginTop: 10 }}>
         <Routes>
-          <Route path="/eStore" element={<LandingPage />} />
+          <Route path="/eStoreV4" element={<LandingPage />} />
           <Route path="/productdetails" element={<ProductDetails />} />
           <Route path="/viewcart" element={<Cart />} />
         </Routes>
